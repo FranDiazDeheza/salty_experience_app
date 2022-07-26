@@ -1,3 +1,19 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(../public/fondo2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+   
+
+
+}
+
+
 @font-face {
     font-family: "miami";
     src: local("Miami"), url(./fonts/Miami.ttf);
@@ -8,15 +24,32 @@
     src: local("deco"), url(./fonts/deco.otf);
 }
 
-.gfg {
-    background-image: 
-    url(./images/back.png);
+@font-face {
+    font-family: "artDec3";
+    src: local("deco3"), url(./fonts/deco3.otf);
+}
+
+
+/*.beach {
+    
     background-size: 100% 100%;
-    height: 250vh;
-    margin-top: 0px;
-    font-size:50px;
+    height: 200vh;
+    margin-top: 0vh;
+    
     background-repeat:"no-repeat"; 
     
-    
-  
+    position: relative;
+   }
+*/
+
+
+
+#titlebann{
+    font-family: artDec;
+    justify-content: center;
+    text-align: center;
+   
   }
+
+
+

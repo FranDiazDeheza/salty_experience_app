@@ -8,23 +8,30 @@ export const Nav = styled.nav`
   height: 80px;
   display: flex;
   justify-content: space-between;
-  padding: 0 1rem calc((100vw - 1500px) / 2);
+  padding: 0 1rem calc((100vw - 1900px) / 2);
   z-index: 10;
+ 
+
   
   font-family: miami;
 
 `;
+
+
+
+
 
 export const NavLink = styled(Link)`
   color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding:  0 1rem;
+  
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #e8a5cb;
+    color: #72CEDD;
     font-family: artDec;
     
     
@@ -37,7 +44,7 @@ export const Bars = styled(FaBars)`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
+    top: 0px;
     right: 0;
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
@@ -81,7 +88,7 @@ export const NavBtnLink = styled(Link)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  /* Second Nav */
+  s
   margin-left: 24px;
   &:hover {
     transition: all 0.2s ease-in-out;
