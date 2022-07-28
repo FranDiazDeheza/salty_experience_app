@@ -1,11 +1,9 @@
 {
-
-    "about" : "A Propos de Nous",
-    "rent" : "Louer",
-    "merch" : "Merch",
-    "where" : "Ou Nous Trouver",
-
-
+    "home" : "主页",
+    "about" : "关于我们",
+    "rent" : "租",
+    "merch" : "商品",
+    "where" : "在哪里可以找到我们",
 
 
 
@@ -15,11 +13,13 @@
 
 
 
-    "bienvenida" : "Profitez de Cette Expérience Salée",
-    "renta" : "Location de Bateaux",
-    "description" : "N'hésitez pas à célébrer la vie à chaque instant, montez à bord de nos bateaux et vous vous sentirez pleinement heureux, nous serons attentifs à chaque détail pour que vous puissiez profiter de chaque instant avec vos proches. Vous pouvez inclure dans votre location jet ski, stand up paddle, kayak et autres...",
-    "rental2" : "Location de Jet Ski",
-    "description2" : "Avec nos Jet Skis, vous pourrez vivre une expérience unique en parcourant les eaux salées du sud de la Floride. Vous pouvez partager votre moto avec qui vous voulez ou demander à l'un de nos guides expérimentés de conduire votre moto."
+
+
+    "bienvenida" : "享受这种咸味体验",
+    "renta" : "租一条船",
+    "description" : "不要犹豫，每时每刻庆祝生活，登上我们的船，您会感到非常幸福，我们将关注每一个细节，让您与亲人一起享受每一刻。您可以在租用的摩托艇、站立式桨、皮划艇和其他物品中加入...",
+    "rental2" : "摩托艇出租",
+    "description2" : "借助我们的摩托艇，您将能够在穿越南佛罗里达咸水时享受独特的体验。您可以与任何您想要的人分享您的摩托车，或者请我们经验丰富的导游驾驶您的摩托车。"
 
 
 

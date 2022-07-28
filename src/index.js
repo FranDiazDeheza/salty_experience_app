@@ -13,8 +13,12 @@ import global_it from "./translations/it/global.json"
 import global_fr from "./translations/fr/global.json"
 import global_cn from "./translations/cn/global.json"
 
+
+
+
 i18next.init({
-     interpolation: {escapeValue: false},
+   
+    interpolation: {escapeValue: false},
      lng: "en",
     resources: {
       es:{

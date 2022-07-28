@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    overflow-x:hidden;
     background: url(../public/fondo2.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -12,6 +13,7 @@ body {
 
 
 }
+
 
 
 @font-face {
@@ -30,25 +32,12 @@ body {
 }
 
 
-/*.beach {
-    
-    background-size: 100% 100%;
-    height: 200vh;
-    margin-top: 0vh;
-    
-    background-repeat:"no-repeat"; 
-    
-    position: relative;
-   }
-*/
-
-
 
 #titlebann{
     font-family: artDec;
     justify-content: center;
     text-align: center;
-   
+   color: black
   }
 
 
