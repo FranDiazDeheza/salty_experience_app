@@ -35,7 +35,13 @@ export const NavDiv = styled.div`
 
 display: flex;
 align-items: center;
-width: 50%;
+width: 60%;
+@media screen and (max-width: 768px) {
+  width: 55%;
+
+  
+
+}
 
 `
 
@@ -47,6 +53,10 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   padding:  0 1rem;
   white-space: nowrap;
+  @media screen and (max-width: 768px) {
+    padding:  0 0rem;
+
+   }
   
   
   height: 100%;
@@ -54,7 +64,9 @@ export const NavLink = styled(Link)`
   &.active {
     color: #72CEDD;
     font-family: artDec;
-    
+
+
+   
     
   }
 `;
