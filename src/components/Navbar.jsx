@@ -4,6 +4,7 @@ import {
   NavLink,
   Bars,
   NavMenu,
+  NavDiv,
   
  } from './NavbarElements';
  import svg from '../images/logo.svg';
@@ -37,12 +38,8 @@ const Navbar = ({toggle}) => {
     <NavLink to="/">
         <img src={svg} width="100" height="100" alt='logo' />
       </NavLink>
-
-             
-      <Bars onClick={toggle}/>
       
-      <NavMenu>
-              
+      <NavDiv>
       <Dropdown>
       <Dropdown.Toggle variant="primary" id="dropdown-basic">
         <GlobeIcon/>
@@ -54,9 +51,16 @@ const Navbar = ({toggle}) => {
         <Dropdown.Item onClick={() => i18n.changeLanguage("en")}> <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/US.svg"  width = "120" height = "30" alt="English" /></Dropdown.Item>
         <Dropdown.Item onClick={() => i18n.changeLanguage("it")}>  <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/IT.svg"  width = "120" height = "30" alt="Italian" /> </Dropdown.Item>
         <Dropdown.Item onClick={() => i18n.changeLanguage("fr")}>  <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/FR.svg"  width = "120" height = "30" alt="French" /> </Dropdown.Item>
-        <Dropdown.Item onClick={() => i18n.changeLanguage("cn")}>  <img src="https://flagicons.lipis.dev/flags/4x3/cn.svg"  width = "120" height = "33" alt="Chinese" /> </Dropdown.Item>
+        <Dropdown.Item onClick={() => i18n.changeLanguage("cn")}>  <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/CN.svg"   width = "120" height = "30" alt="Chinese" /> </Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
+    </NavDiv>
+             
+      <Bars onClick={toggle}/>
+      
+      <NavMenu>
+              
+     
     
         <NavLink to="/about" activesStyle> 
        <span>{t("about")}</span> 

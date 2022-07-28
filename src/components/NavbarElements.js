@@ -31,7 +31,13 @@ export const Nav = styled.nav`
 
 `;
 
+export const NavDiv = styled.div`
 
+display: flex;
+align-items: center;
+width: 50%;
+
+`
 
 export const NavLink = styled(Link)`
 
@@ -40,6 +46,8 @@ export const NavLink = styled(Link)`
   align-items: center;
   text-decoration: none;
   padding:  0 1rem;
+  white-space: nowrap;
+  
   
   height: 100%;
   cursor: pointer;

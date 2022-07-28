@@ -22,12 +22,6 @@ top: ${({isOpen}) => (isOpen ? '0' : '-100%' )};
 
 `;
 
-export const SideDiv = styled.div`
-display: grid;
-align-items: center;
-justify-content: center;
-
-`; 
 
 
 
