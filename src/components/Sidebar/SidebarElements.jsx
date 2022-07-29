@@ -49,12 +49,14 @@ color: #fff;
 export const SidebarMenu = styled.ul`
 display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(6, 88px);
+grid-template-rows: repeat(5, 80px);
 text-align: center;
+overflow-x:hidden;
 
 @media screen and (max-width: 768px) {
-    grid-template-rows: repeat(8, 55px);
-    text-align: center;
+    grid-template-rows: repeat(6, 58px);
+    overflow-x:hidden;
+   
 }
 
 `;

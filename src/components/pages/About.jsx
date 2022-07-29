@@ -13,21 +13,22 @@ const About = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://images5.alphacoders.com/675/thumb-1920-675264.jpg" class="d-block w-100" alt="..."/>
+   
+      <img id="imgsize" src="https://images5.alphacoders.com/675/thumb-1920-675264.jpg"class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
+        <h2>First slide label</h2>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="https://wallpaperaccess.com/full/1975281.jpg" class="d-block w-100" alt="..."/>
+      <img id="imgsize"src="https://wallpaperaccess.com/full/1975286.jpg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://uhdwallpapers.org/uploads/cache/3643317757/boat-and-sunset-in-background_600x338-mm-90.jpg" class="d-block w-100" alt="..."/>
+      <img id="imgsize" src="https://images7.alphacoders.com/713/713398.jpg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>

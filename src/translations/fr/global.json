@@ -1,4 +1,5 @@
 {
+    ">" : "Navbar",
     "home" : "Page d'Accueil",
     "about" : "A Propos de Nous",
     "rent" : "Louer",
@@ -14,12 +15,18 @@
 
 
 
-
+    ">>" : "Home",
     "bienvenida" : "Profitez de Cette Expérience Salée",
     "renta" : "Location de Bateaux",
     "description" : "N'hésitez pas à célébrer la vie à chaque instant, montez à bord de nos bateaux et vous vous sentirez pleinement heureux, nous serons attentifs à chaque détail pour que vous puissiez profiter de chaque instant avec vos proches. Vous pouvez inclure dans votre location jet ski, stand up paddle, kayak et autres...",
     "rental2" : "Location de Jet Ski",
-    "description2" : "Avec nos Jet Skis, vous pourrez vivre une expérience unique en parcourant les eaux salées du sud de la Floride. Vous pouvez partager votre moto avec qui vous voulez ou demander à l'un de nos guides expérimentés de conduire votre moto."
+    "description2" : "Avec nos Jet Skis, vous pourrez vivre une expérience unique en parcourant les eaux salées du sud de la Floride. Vous pouvez partager votre moto avec qui vous voulez ou demander à l'un de nos guides expérimentés de conduire votre moto.",
+
+
+    ">>>" : "Merch",
+    "merchsoon" : "Bientôt Disponible..."
+
+
 
 
 

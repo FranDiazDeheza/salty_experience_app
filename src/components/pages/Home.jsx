@@ -23,7 +23,7 @@ const Home = () => {
             <div class="row">
               <div class="column">
             <figure class="snip0016">
-  <img src={boat} alt="sample41" width = "500px" height = "400px"/>
+  <img  src={boat} alt="sample41" width = "500px" height = "400px"/>
   <figcaption>
     <h2 id="titlebann">{t("renta")}</h2>
     <p>{t("description")}</p>

@@ -1,0 +1,22 @@
+#imgsize{
+    width: 100%;
+    height: 550px;
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    #imgsize{
+        
+        height: 580px;
+    
+    
+    
+    }
+  
+    
+  
+  }
+     

@@ -34,6 +34,7 @@ const Navbar = ({toggle}) => {
   
   return (
     <>
+    
     <Nav>
     <NavLink to="/">
         <img src={svg} width="100" height="100" alt='logo' />
@@ -85,8 +86,7 @@ const Navbar = ({toggle}) => {
 
     </Nav>
 
-
-
+   
 
 
 
