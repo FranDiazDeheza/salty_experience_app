@@ -2,7 +2,7 @@ import React from 'react'
 
 const Rent = () => {
   return (
-    <div><h2>En Proceso</h2></div>
+    <div><h2  text-align = "center" justify-content = "center">En Proceso</h2></div>
   )
 }
 
