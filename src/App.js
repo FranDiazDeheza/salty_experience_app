@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import Rent from "./components/pages/Rent";
 import Background from "./components/Background";
 import Location from "./components/pages/Location";
+import Merch from "./components/pages/Merch";
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/about" element = {<About/>}/>
         <Route exact path="/rent" element = {<Rent/>}/>
         <Route exact path="/location" element = {<Location/>}/>
+        <Route exact path="/merch" element = {<Merch/>}/>
       </Routes>
   
     
