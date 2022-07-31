@@ -4,7 +4,7 @@
 }
 
 #title1 {
-  font-family: artDec;
+  font-family: artDec2;
   justify-content: center;
   text-align: center;
   margin-left: auto;
@@ -19,6 +19,7 @@
   -ms-transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
 }
+
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 figure.snip0016 {

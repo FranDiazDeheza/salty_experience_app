@@ -26,7 +26,14 @@ body {
 @font-face {
     font-family: "artDec";
     src: local("deco"), url(./fonts/deco.otf);
+
+
 }
+@font-face {
+    font-family: "artDec2";
+    src: local("deco2"), url(./fonts/deco2.otf);
+}
+
 
 @font-face {
     font-family: "artDec3";

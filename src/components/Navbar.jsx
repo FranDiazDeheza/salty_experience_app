@@ -11,6 +11,7 @@ import {
  import cart from "../images/cart.svg";
  import { useTranslation } from 'react-i18next'
  import Dropdown from 'react-bootstrap/Dropdown';
+ import "./navbar.css"
 
 
  const GlobeIcon = ({ width = 24, height = 24 }) => (

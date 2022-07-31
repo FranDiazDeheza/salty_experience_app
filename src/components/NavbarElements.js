@@ -12,6 +12,8 @@ export const Nav = styled.nav`
   padding: 0 1rem calc((100vw - 1900px) / 2);
   z-index: 10;
   border: 1px solid black;
+  opacity: .7;
+
  
  
 
@@ -52,7 +54,7 @@ export const NavLink = styled(Link)`
   cursor: pointer;
   &.active {
     color: #72CEDD;
-    font-family: artDec;
+    font-family: artDec2;
 
 
    
