@@ -26,8 +26,8 @@ const Sidebar = ({isOpen,toggle}) => {
           <SidebarLink  to="/Merch" activesStyle  onClick={toggle}>
           <span>  {t("merch")} </span>
           </SidebarLink>
-          <SidebarLink to="/Location" activesStyle onClick={toggle}>
-          <span> {t("where")} </span>
+          <SidebarLink to="/contact" activesStyle onClick={toggle}>
+          <span> {t("contact")} </span>
           </SidebarLink>
          
     
