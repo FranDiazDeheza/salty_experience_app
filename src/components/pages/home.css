@@ -38,13 +38,21 @@
 }
 
 #titlecarousel{
-   color: #fff;
-   position: absolute;
+  color: #fff;
+  position: absolute;
    top: 40px;
 
 
 
 }
+
+ #contentcarousel{
+  color: #fff;
+   top: 85px;
+   position: absolute;
+
+
+ }
 
 /* Carrousel */
 
@@ -189,11 +197,15 @@
   }
  
 
+/*Questions*/
+
   body{margin-top:20px;}
 
 .align-center {
     text-align: center;
 }
+
+
 .hash-list {
     display: block;
     padding: 0;
@@ -253,3 +265,8 @@ img {
     font-weight: 700 !important;
 }
 
+#questiona{
+  text-align: center;
+  justify-content: center!important;
+}
+/*Questions*/

@@ -74,8 +74,8 @@ const Navbar = ({toggle}) => {
         <NavLink to="/Merch" activesStyle> 
        <span>  {t("merch")} </span>
         </NavLink>
-        <NavLink to="/Location" activesStyle> 
-        <span> {t("where")} </span>
+        <NavLink to="/contact" activesStyle> 
+        <span> {t("contact")} </span>
         </NavLink>
         <NavLink to="/ViewCarrito" role="button" className="relative flex">
         <img src={cart} width="25" height="25" alt='cart' />
