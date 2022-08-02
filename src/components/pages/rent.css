@@ -1,9 +1,12 @@
-#proceso{
-    font-family: artDec2;
-  justify-content: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  white-space: nowrap;
-  padding: 40px;
+#bookingcalendar{
+  width: 50%;
+  height: 40px;
+  background-color: #fff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #bookingcalendar{
+    width: 100% }
 }

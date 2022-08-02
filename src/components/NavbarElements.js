@@ -11,8 +11,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0 1rem calc((100vw - 1900px) / 2);
   z-index: 10;
-  border: 1px solid black;
-  opacity: .7;
+
 
  
  

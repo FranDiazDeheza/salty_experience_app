@@ -2,4 +2,14 @@
     color: white;
     background-color: #EEA2C8;
     border: none;
+    opacity: 5;
+}
+
+.dropdown-menu{
+    opacity: 1!important;
+}
+
+.dropdown-div{
+    opacity: 1!important;
+
 }
