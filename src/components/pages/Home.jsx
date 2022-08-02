@@ -9,6 +9,9 @@ import {Link } from "react-router-dom";
 import imagecarousel from "../../images/about.jpg"
 
 
+
+
+
 const Home = () => {
 
   const [t, i18n] = useTranslation ("global")
@@ -21,29 +24,39 @@ const Home = () => {
             <img src={logo2} id="logo2" alt="logo"></img>
             <h1 id="title1">{t('bienvenida')}</h1>
 
-            <div class="row">
-              <div class="column">
-            <figure class="snip0016">
-  <img  src={boat} alt="sample41" width = "500px" height = "400px"/>
-  <figcaption>
+            <br></br>
+            <br></br>
+
+            <div class ="row">
+      <div class ="column">
+   <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src={boat} id="imag1hov"  alt="boathover" />
+    </div>
+    <div class="flip-card-back">
     <h2 id="titlebann">{t("renta")}</h2>
     <p>{t("description")}</p>
-    <Link to="/about"/>
-  </figcaption>     
-</figure>
+    </div>
+  </div>
 </div>
-<div class="column">
-<figure class="snip0016">
-  <img src={jetski} alt="sample42" width = "500px" height = "400px"/>
-  <figcaption>
+</div>
+
+<div class ="column">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src={jetski} id="imag1hov"  alt="jethover" />
+    </div>
+    <div class="flip-card-back">
     <h2 id="titlebann">{t("rental2")}</h2>
     <p>{t("description2")}</p>
-    <Link to="/about"/>
-  </figcaption>     
-</figure>
+    </div>
+  </div>
 </div>
-        </div>      
-        </div> 
+</div>
+</div>      
+ </div> 
 <div>
   
 </div>
@@ -117,7 +130,7 @@ const Home = () => {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
+    <div class="carousel-item active" data-bs-interval="8000">
    
       <img id="imgsize" src={imagecarousel} class="d-block w-100" alt="..."/>
       
