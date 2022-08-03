@@ -5,17 +5,12 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
  
-  background: #fff;
+ 
   height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 0 1rem calc((100vw - 1900px) / 2);
-  z-index: 10;
-
-
- 
- 
-
+  z-index: 12;
   
   font-family: miami;
 
@@ -26,8 +21,10 @@ export const NavDiv = styled.div`
 display: flex;
 align-items: center;
 width: 60%;
+padding: 0 1rem;
 @media screen and (max-width: 768px) {
   width: 55%;
+
 
   
 
@@ -37,6 +34,7 @@ width: 60%;
 
 export const NavLink = styled(Link)`
 
+  
   color: #000;
   display: flex;
   align-items: center;
@@ -45,6 +43,9 @@ export const NavLink = styled(Link)`
   white-space: nowrap;
   @media screen and (max-width: 768px) {
     padding:  0 0rem;
+   
+
+
 
    }
   
@@ -62,18 +63,18 @@ export const NavLink = styled(Link)`
 `;
 
 export const Bars = styled(FaBars)`
-  display: none;
-  color: #00;
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0px;
-    right: 0;
-    transform: translate(-100%, 80%);
-    font-size: 1.8rem;
-    cursor: pointer;
-   
-  }
+display: none;
+color: #000;
+@media screen and (max-width: 768px) {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  transform: translate(-100%, 80%);
+  font-size: 1.8rem;
+  cursor: pointer;
+ 
+}
 `;
 
 export const NavMenu = styled.div`
