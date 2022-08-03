@@ -1,13 +1,11 @@
 import React from 'react'
-import logo2 from "../../images/LOGOBLANCO.png"
-import jetski from "../../images/jetski.jpg"
+import jetski1 from "../../images/jetski1.jpg"
 import boat from "../../images/boat.jpg"
 import "../pages/home.css"
 import { useTranslation } from 'react-i18next'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link } from "react-router-dom";
-import imagecarousel from "../../images/about.jpg"
-import beach from "../../images/beach.mp4"
+import beach from "../../images2/beach.mp4"
 
 
 
@@ -22,12 +20,15 @@ const Home = () => {
 <div>
 <video source src={beach} type="video/mp4" autoPlay={"autoplay"} loop preLoad="auto"  id="myVideo"/>
 <h1 id="title1">MIAMI SALTY EXPERIENCE</h1>
-<h2 id="subtitle">GET SALTY</h2>
-<a href="something" class="button3">Nofunco</a>
+<h2 id="subtitle"> GET SALTY </h2>
+<Link to="/Rent"><a href="something" className="button3"> Book Now </a></Link>
+<button class="button-18" role="button" ><a id="telef" href="tel:+1-305-424-1474"> Call +1-(305)-424-1474 </a></button>
+<Link to="/Contact"><button class="button-20" role="button">Contact</button></Link>
+
 </div>
 
  
-  
+   
 
 
        
@@ -46,7 +47,7 @@ const Home = () => {
     </div>
     <div class="flip-card-back">
     <h2 id="titlebann">{t("renta")}</h2>
-    <p>{t("description")}</p>
+    <p id="titlebann2">{t("description")}</p>
     </div>
   </div>
 </div>
@@ -56,11 +57,11 @@ const Home = () => {
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src={jetski} id="imag1hov"  alt="jethover" />
+      <img src={jetski1} id="imag1hov"  alt="jethover" />
     </div>
     <div class="flip-card-back">
     <h2 id="titlebann">{t("rental2")}</h2>
-    <p>{t("description2")}</p>
+    <p id="titlebann2">{t("description2")}</p>
     </div>
   </div>
 </div>
@@ -142,7 +143,7 @@ const Home = () => {
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="8000">
    
-      <img id="imgsize" src={imagecarousel} class="d-block w-100" alt="..."/>
+      <img id="imgsize" src="https://wallpapers-hub.art/wallpaper-images/359648.jpg" class="d-block w-100" alt="..."/>
       
         <h2 id="titlecarousel">First slide label</h2>
         <p id="contentcarousel"> Some representative placeholder content for the first slide.</p>
