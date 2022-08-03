@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link } from "react-router-dom";
 import imagecarousel from "../../images/about.jpg"
-
+import beach from "../../images/beach.mp4"
 
 
 
@@ -19,10 +19,20 @@ const Home = () => {
   return (
     <>
 
+<div>
+<video source src={beach} type="video/mp4" autoPlay={"autoplay"} loop preLoad="auto"  id="myVideo"/>
+<h1 id="title1">MIAMI SALTY EXPERIENCE</h1>
+<h2 id="subtitle">GET SALTY</h2>
+<a href="something" class="button3">Nofunco</a>
+</div>
+
+ 
+  
+
+
        
         <div className="intro">
-            <img src={logo2} id="logo2" alt="logo"></img>
-            <h1 id="title1">{t('bienvenida')}</h1>
+            
 
             <br></br>
             <br></br>
@@ -193,9 +203,6 @@ const Home = () => {
       </ul>
 </div>
    
-
-
-        
 
     
     
