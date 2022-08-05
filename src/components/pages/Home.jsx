@@ -20,7 +20,7 @@ const Home = () => {
 <div>
 <video source src={beach} type="video/mp4" autoPlay={"autoplay"} loop preLoad="auto"  id="myVideo"/>
 <h1 id="title1">MIAMI SALTY EXPERIENCE</h1>
-<h2 id="subtitle"> GET SALTY </h2>
+
 <Link to="/Rent"><a href="something" className="button3"> Book Now </a></Link>
 <button class="button-18" role="button" ><a id="telef" href="tel:+1-305-424-1474"> Call +1-(305)-424-1474 </a></button>
 <Link to="/Contact"><button class="button-20" role="button">Contact</button></Link>
@@ -72,10 +72,48 @@ const Home = () => {
   
 </div>
 
+<div id="carousel">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="8000">
+   
+      <img id="imgsize" src="https://wallpapers-hub.art/wallpaper-images/359648.jpg" class="d-block w-100" alt="..."/>
+      
+        <h2 id="titlecarousel">First slide label</h2>
+        <p id="contentcarousel"> Some representative placeholder content for the first slide.</p>
+      
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img id="imgsize"src="https://wallpaperaccess.com/full/1975286.jpg" class="d-block w-100" alt="..."/>
+        <h2 id="titlecarousel">Second slide label</h2>
+        <p id="contentcarousel"> Some representative placeholder content for the second slide.</p>
+     
+    </div>
+    <div class="carousel-item">
+      <img id="imgsize" src="https://images7.alphacoders.com/713/713398.jpg" class="d-block w-100" alt="..."/>
+    
+        <h2 id="titlecarousel">Third slide label</h2>
+        <p id="contentcarousel">Some representative placeholder content for the third slide.</p>
+    
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
 
-<br></br>
-<br></br>
-<br></br>
+
 
 <h2 id="fqh2"> Frequent Questions </h2>
 
@@ -130,52 +168,7 @@ const Home = () => {
 
 
 
-<br></br>
-<br></br>
-<br></br>
-        <div id="carousel">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="8000">
-   
-      <img id="imgsize" src="https://wallpapers-hub.art/wallpaper-images/359648.jpg" class="d-block w-100" alt="..."/>
-      
-        <h2 id="titlecarousel">First slide label</h2>
-        <p id="contentcarousel"> Some representative placeholder content for the first slide.</p>
-      
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img id="imgsize"src="https://wallpaperaccess.com/full/1975286.jpg" class="d-block w-100" alt="..."/>
-        <h2 id="titlecarousel">Second slide label</h2>
-        <p id="contentcarousel"> Some representative placeholder content for the second slide.</p>
-     
-    </div>
-    <div class="carousel-item">
-      <img id="imgsize" src="https://images7.alphacoders.com/713/713398.jpg" class="d-block w-100" alt="..."/>
-    
-        <h2 id="titlecarousel">Third slide label</h2>
-        <p id="contentcarousel">Some representative placeholder content for the third slide.</p>
-    
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
 
-<br></br>
-<br></br>
        
 <div class="container" >
     <div class="mgb-40 padb-30 auto-invert line-b-4 align-center">

@@ -248,7 +248,7 @@ position: absolute;
 
 #carousel{
   position:relative;
-  bottom:1110px;
+  bottom:635px;
 }
 
 
@@ -361,78 +361,19 @@ position: absolute;
 @media (max-width: 900px) {
   .column{
     padding: 50px;
-   
-  
 }
 }
-
-@media (max-width: 480px){
-  #imag1hov{
-    width: 350px;
-    height: 350px;
-  }
-
-  .flip-card {
-    width: 350px;
-    height: 350px;
-  }
-
-
-  .column{
-    padding: 20px;
-  }
-
-
-
-}
-
-
-/* Hover */
-
 
 @media screen and (min-width: 1380px) {
 
-
-#title1{ 
+  #title1{ 
   top: 180px
-
-
-}
+   }
 #subtitle{ 
   top: 290px
 }
-
-  
 }
 
-
-  @media screen and (max-width: 480px) {
-
-#title1 {
-  font-size: 20px;
-  
-}
-
-#sizephot{
-  width:300px;
-  height:300px
-
-}
-
-    #logo2{ 
-
-      width: 75%;
-      height: 75%;
-      
-    }
-
-
-
-
-
-
-  }
- 
 
 /*Questions*/
 
@@ -542,12 +483,48 @@ img {
     bottom: 500px;
   }
   a.button3{
-    bottom: 300px;
+    bottom: 380px;
 
+  }
+
+  .button-18{
+    bottom: 330px
   }
   .button-20{
-    bottom: 240px;
+    bottom: 275px;
+  }
+    #imag1hov{
+      width: 350px;
+      height: 350px;
+    }
+  
+    .flip-card {
+      width: 350px;
+      height: 350px;
+    }
+  
+  
+    .column{
+      padding-bottom: 20px;
+    }
 
+    #sizephot{
+      width:300px;
+      height:300px
+    }
+        #logo2{ 
+          width: 75%;
+          height: 75%;
+        }
+    
+    .row{
+      bottom: 400px;
+    }
+
+    #carousel{
+      position:relative;
+      bottom:400px;
+      object-fit: cover;
+    }
 
   }
-}
