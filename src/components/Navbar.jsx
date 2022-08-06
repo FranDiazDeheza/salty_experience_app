@@ -70,9 +70,10 @@ const Navbar = ({toggle}) => {
   <NavLink to="/about" activesStyle> 
         <span>{t("about")}</span> 
         </NavLink>
-        <NavLink to="/rent" activesStyle> 
-        <span> {t("rent")} </span>
-        </NavLink>
+        {/*<NavLink to="/rent" activesStyle>*/}
+       <a id="wsp" href = "https://wa.me/13054241474?text=Hello!%20i'm%20interested%20in%20the%20Salty%20Experience"> <span>{t("rent")}</span></a>  
+        {/*<span> {t("rent")} </span>*/}
+        {/*</NavLink>*/}
         <NavLink to="/Merch" activesStyle> 
        <span>  {t("merch")} </span>
         </NavLink>
