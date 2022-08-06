@@ -464,7 +464,7 @@ img {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 490px) {
 
 
  #myVideo{
@@ -475,7 +475,7 @@ img {
 
   #title1 {
     font-size: 25px;
-    bottom: 550px;
+    bottom: 530px;
   }
 
   #subtitle {
