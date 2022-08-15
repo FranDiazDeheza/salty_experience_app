@@ -17,15 +17,13 @@ const Home = () => {
   return (
     <>
 
-<div>
-<video source src={beach} type="video/mp4" autoPlay={"autoplay"} loop preLoad="auto"  id="myVideo"/>
+<video source src={beach} type="video/mp4" loop="true" autoplay="autoplay" controls muted preLoad="auto"  id="myVideo"/>
 <h1 id="title1">MIAMI SALTY EXPERIENCE</h1>
 
 <Link to="/Rent"><a href="something" className="button3"> Book Now </a></Link>
 <button class="button-18" role="button" ><a id="telef" href="tel:+1-305-424-1474"> Call +1-(305)-424-1474 </a></button>
 <Link to="/Contact"><button class="button-20" role="button">Contact</button></Link>
 
-</div>
 
  
    
