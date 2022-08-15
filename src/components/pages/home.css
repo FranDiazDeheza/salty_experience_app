@@ -422,6 +422,18 @@ img {
 
 }
 
+@media screen and (max-width: 450px) {
+
+  #title1 {
+  
+  font-size: 30px;
+  bottom: 650px;
+  
+  }
+  
+  }
+
+
 
 @media screen and (max-width: 500px) {
 
