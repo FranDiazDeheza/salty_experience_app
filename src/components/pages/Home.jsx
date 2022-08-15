@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
 
-<video source src={beach} type="video/mp4" loop="true" autoplay="autoplay" controls muted preLoad="auto"  id="myVideo"/>
+<video source src={beach} type="video/mp4" loop="true" autoplay="autoplay" pointer-events="none"  muted preLoad="auto"  id="myVideo"/>
 <h1 id="title1">MIAMI SALTY EXPERIENCE</h1>
 
 <Link to="/Rent"><a href="something" className="button3"> Book Now </a></Link>
@@ -26,9 +26,7 @@ const Home = () => {
 
 
  
-   
-
-
+  
        
         <div className="intro">
             
@@ -112,7 +110,7 @@ const Home = () => {
 </div>
 
 
-
+<div id="faq1">
 <h2 id="fqh2"> Frequent Questions </h2>
 
 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -157,6 +155,7 @@ const Home = () => {
     </div>
   </div>
 </div>
+</div>
 
 
 
@@ -167,8 +166,8 @@ const Home = () => {
 
 
 
-       
-<div class="container" >
+<br></br>    
+<div class="container">
     <div class="mgb-40 padb-30 auto-invert line-b-4 align-center">
         <h4 class="font-cond-l fg-accent lts-md mgb-10" contenteditable="false">Not Yet Convinced?</h4>
         <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">Read Customer Reviews</h1>

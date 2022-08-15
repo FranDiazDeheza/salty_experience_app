@@ -14,6 +14,7 @@
   z-index: -5!important;
   object-fit: cover;
   padding-bottom: 50px;
+  pointer-events: none
 }
 
 #title1 {
@@ -250,6 +251,12 @@ position: absolute;
 
 /* Carrousel */
 
+
+#faq1{
+  margin-top:  -550px;
+}
+
+
 #fqh2{
   font-family: artDec2;
   justify-content: center;
@@ -422,7 +429,15 @@ img {
 
 }
 
+
 @media screen and (max-width: 450px) {
+
+
+
+  #faq1{
+    margin-top:  -350px;
+
+  }
 
   #title1 {
   
@@ -432,7 +447,6 @@ img {
   }
   
   }
-
 
 
 @media screen and (max-width: 500px) {
