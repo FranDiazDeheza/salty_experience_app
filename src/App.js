@@ -6,6 +6,7 @@ import Rent from "./components/pages/Rent";
 import Background from "./components/Background";
 import Merch from "./components/pages/Merch";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/pages/Footer";
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/contact" element = {<Contact/>}/>
         <Route exact path="/merch" element = {<Merch/>}/>
       </Routes>
+      
   
     
 
@@ -34,6 +36,8 @@ function App() {
       
 
     </Router>
+       
+
   );
 }
 

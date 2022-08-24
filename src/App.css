@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x:hidden;
-    background: url(../public/fondo2.jpg) no-repeat center center fixed; 
+   
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
