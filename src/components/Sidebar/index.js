@@ -24,7 +24,7 @@ const Sidebar = ({isOpen,toggle}) => {
          {/* <SidebarLink to="/rent" activesStyle onClick={toggle}>*/}
          {/* <span> {t("rent")} </span>*/}
            {/*<NavLink to="/rent" activesStyle>*/}
-       <a id="wsp" href = "https://wa.me/13054241474?text=Hello!%20i'm%20interested%20in%20the%20Salty%20Experience"> <span>{t("rent")}</span></a> 
+       <a id="wsp1" href = "https://wa.me/13054241474?text=Hello!%20i'm%20interested%20in%20the%20Salty%20Experience"> <span>{t("rent")}</span></a> 
          {/* </SidebarLink>*/}
           <SidebarLink  to="/Merch" activesStyle  onClick={toggle}>
           <span>  {t("merch")} </span>

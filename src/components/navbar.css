@@ -1,6 +1,6 @@
 #dropdown-basic{
     color: white;
-    background-color: #EEA2C8;
+    background-color: #000;
     border: none;
     opacity: 5;
 }
@@ -56,12 +56,13 @@
 
 
 #logo1{
-    width: 190px;
-      position: relative;
-      left: -50px;
-     height: 130px ;
-     padding:  0rem;
-     padding-top: 10px;
-   
-}
+    width: 100%; 
+    max-height: 90%; 
+    max-width: 100%; 
+    position: relative;
+    left: 10px;
+    
+    
+    
 
+ }

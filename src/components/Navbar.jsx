@@ -7,7 +7,7 @@ import {
   NavDiv,
   
  } from './NavbarElements';
- import svg from '../images/LOGOBLANCO.png';
+ import svg from '../images/logocolor.png';
  import cart from "../images/cart.svg";
  import { useTranslation } from 'react-i18next'
  import Dropdown from 'react-bootstrap/Dropdown';
@@ -74,26 +74,25 @@ const Navbar = ({toggle}) => {
        <a id="wsp" href = "https://wa.me/13054241474?text=Hello!%20i'm%20interested%20in%20the%20Salty%20Experience"> <span>{t("rent")}</span></a>  
         {/*<span> {t("rent")} </span>*/}
         {/*</NavLink>*/}
+         {/*
         <NavLink to="/Merch" activesStyle> 
        <span>  {t("merch")} </span>
         </NavLink>
+        */}
         <NavLink to="/contact" activesStyle> 
         <span> {t("contact")} </span>
         </NavLink>
+        {/*
         <NavLink to="/ViewCarrito" role="button" className="relative flex">
         <img src={cart} width="25" height="25" alt='cart' />
-    
         </NavLink>
+        */}
         </NavMenu>
 
 
 
 
     </Nav>
-
-   
-
-
 
     </>
   )

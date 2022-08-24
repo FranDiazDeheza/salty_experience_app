@@ -7,8 +7,7 @@ const About = () => {
     return (
      <>
      
-
-
+  
      </>
         
             

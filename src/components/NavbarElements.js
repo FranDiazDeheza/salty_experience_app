@@ -6,13 +6,17 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
  
  
-  height: 80px;
+  height: 60px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 0 1rem calc((100vw - 1900px) / 2);
-  z-index: 12;
-  
+  z-index: 20;
   font-family: miami;
+  position: fixed;
+  background-color:#fff;
+ 
+
 
 `;
 
@@ -20,8 +24,10 @@ export const NavDiv = styled.div`
 
 display: flex;
 align-items: center;
-width: 60%;
-padding: 0 1rem;
+position:relative;
+width: 50%;
+left: -70px;
+
 @media screen and (max-width: 768px) {
   width: 55%;
 
