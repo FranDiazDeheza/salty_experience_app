@@ -9,8 +9,6 @@ import logomin from "../../images/logocolor.png"
 
 
 
-
-
 const Home = () => {
 
   const [t, i18n] = useTranslation ("global")
@@ -70,7 +68,7 @@ const Home = () => {
 
 {/* TICKER WRAP BOOK NOW */}
 
-
+<a id="ctain" href="https://wa.me/13054241474?text=Hello!%20i'm%20interested%20in%20the%20Salty%20Experience">
 <div className="ticker-wrap">
 <div className="ticker">
   <div className="ticker__item">Book Now.</div>
@@ -81,6 +79,7 @@ const Home = () => {
   <div className="ticker__item">Book Now. </div>
   </div>
   </div>
+  </a>
 
 {/* FIN TICKER WRAP BOOK NOW */}   
 
@@ -103,7 +102,7 @@ const Home = () => {
             </ul>
         </div>
         </div>
-        <button className="cta">Rent Now</button>
+        <button className="cta"> <a id="ctain" href="https://wa.me/13054241474?text=Hello!%20i'm%20interested%20in%20the%20Salty%20Experience">Book Now</a></button>
         </div>
 
 <div className="container">
@@ -122,7 +121,7 @@ const Home = () => {
           </ul>
       </div>
       </div>
-      <button className="cta">Rent Now</button>
+      <button className="cta"> <a id="ctain" href="https://wa.me/13054241474?text=Hello!%20i'm%20interested%20in%20the%20Salty%20Experience">Book Now</a></button>
       </div>
 
 
@@ -143,7 +142,7 @@ const Home = () => {
           </ul>
       </div>
       </div>
-      <button className="cta">Rent Now</button>
+      <button className="cta"> <a id="ctain" href="https://wa.me/13054241474?text=Hello!%20i'm%20interested%20in%20the%20Salty%20Experience">Book Now</a></button>
       </div>
       </div>
 {/* FIN IMAGENES HOVER */}     
@@ -156,7 +155,7 @@ const Home = () => {
     <div className="container-fluid text-center text-md-left">
         <div className="row">
             <div className="col-md-3 mt-md-0 mt-3">
-                <img src={logomin} id="logomin"alt="minlog"/>
+                <img src={logomin} id="logomin" alt="minlog"/>
                 <p>Here you can use rows and columns to organize your footer content.</p>
             </div>
 
