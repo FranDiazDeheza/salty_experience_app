@@ -2,11 +2,10 @@ import React from 'react'
 import "../pages/home.css"
 import { useTranslation } from 'react-i18next'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Link } from "react-router-dom";
 import beach from "../../images2/beach.mp4"
-
 import jet from "../../images2/jet.png"
 import boat from "../../images2/boat.png"
+import logomin from "../../images/logocolor.png"
 
 
 
@@ -22,45 +21,47 @@ const Home = () => {
 {/* VIDEO RECEIVER */}
 <div id="receiver">   
 <h1 id="title1">MIAMI SALTY EXPERIENCE</h1>
-<video source src={beach} type="video/mp4" loop="true" autoplay="autoplay" pointer-events="none"  muted preLoad="auto"  id="myVideo"/>
+<video src={beach} type="video/mp4" loop={true} autoPlay="autoplay" pointerEvents="none"  muted preload="auto"  id="myVideo"/>
 </div>
+{/* FIN VIDEO RECEIVER */}
 
 
 {/* CARRUSEL */}
 <div id="carousel">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button id="buttcar" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div className="carousel-indicators">
+    <button id="buttcar" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button id="buttcar" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button  id="buttcar" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button  id="buttcar" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="3000">
+  <div className="carousel-inner">
+    <div className="carousel-item active" data-bs-interval="3000">
    
-      <img id="imgsize" src="https://wallpapers-hub.art/wallpaper-images/359648.jpg" class="d-block w-100" alt="..."/>
+      <img id="imgsize" src="https://wallpapers-hub.art/wallpaper-images/359648.jpg" className="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img id="imgsize"src="https://wallpaperaccess.com/full/1975286.jpg" class="d-block w-100" alt="..."/>
+    <div className="carousel-item" data-bs-interval="3000">
+      <img id="imgsize"src="https://wallpaperaccess.com/full/1975286.jpg" className="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item"data-bs-interval="3000">
-      <img id="imgsize" src="https://images7.alphacoders.com/713/713398.jpg" class="d-block w-100" alt="..."/>
+    <div className="carousel-item"data-bs-interval="3000">
+      <img id="imgsize" src="https://images7.alphacoders.com/713/713398.jpg" className="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img id="imgsize" src="https://images7.alphacoders.com/713/713398.jpg" class="d-block w-100" alt="..."/>
+    <div className="carousel-item" data-bs-interval="3000">
+      <img id="imgsize" src="https://images7.alphacoders.com/713/713398.jpg" className="d-block w-100" alt="..."/>
 
     </div>
   </div>
-  <button  class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button  className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
 </div>
+{/* FIN CARRUSEL */}
 
 <br></br>
 <br></br>
@@ -70,30 +71,31 @@ const Home = () => {
 {/* TICKER WRAP BOOK NOW */}
 
 
-<div class="ticker-wrap">
-<div class="ticker">
-  <div class="ticker__item">Book Now.</div>
-  <div class="ticker__item">Book Now.</div>
-  <div class="ticker__item">Book Now.</div>
-  <div class="ticker__item">Book Now. </div>
-  <div class="ticker__item">Book Now. </div>
-  <div class="ticker__item">Book Now. </div>
+<div className="ticker-wrap">
+<div className="ticker">
+  <div className="ticker__item">Book Now.</div>
+  <div className="ticker__item">Book Now.</div>
+  <div className="ticker__item">Book Now.</div>
+  <div className="ticker__item">Book Now. </div>
+  <div className="ticker__item">Book Now. </div>
+  <div className="ticker__item">Book Now. </div>
   </div>
   </div>
-   
+
+{/* FIN TICKER WRAP BOOK NOW */}   
 
 {/* IMAGENES HOVER */}
 
-  <div class="conta">
-  <div class="container">
-  <div class="inner">
-    <div class="content">
+  <div className="conta">
+  <div className="container">
+  <div className="inner">
+    <div className="content">
       <span>Rent a Boat</span>
       <h2 id="contah2">Something</h2>
       </div>
-      <div class="lower">
-        <img src={boat} class="image" alt=""/>
-          <ul class="features-list">
+      <div className="lower">
+        <img src={boat} className="image" alt=""/>
+          <ul className="features-list">
            <li>Something</li>
            <li>Something</li>
            <li>Something</li>
@@ -101,18 +103,18 @@ const Home = () => {
             </ul>
         </div>
         </div>
-        <button class="cta">Rent Now</button>
+        <button className="cta">Rent Now</button>
         </div>
 
-<div class="container">
-<div class="inner">
-  <div class="content">
+<div className="container">
+<div className="inner">
+  <div className="content">
     <span>Rent a JetSki</span>
     <h2 id="contah2">Something</h2>
     </div>
-    <div class="lower">
-      <img src={jet} class="image" alt=""/>
-        <ul class="features-list">
+    <div className="lower">
+      <img src={jet} className="image" alt=""/>
+        <ul className="features-list">
          <li>Something</li>
          <li>Something</li>
          <li>Something</li>
@@ -120,20 +122,20 @@ const Home = () => {
           </ul>
       </div>
       </div>
-      <button class="cta">Rent Now</button>
+      <button className="cta">Rent Now</button>
       </div>
 
 
 
-<div class="container">
-<div class="inner">
-  <div class="content">
+<div className="container">
+<div className="inner">
+  <div className="content">
     <span>Rent addons</span>
     <h2 id="contah2">Something</h2>
     </div>
-    <div class="lower">
-      <img src={jet} class="image" alt=""/>
-        <ul class="features-list">
+    <div className="lower">
+      <img src={jet} className="image" alt=""/>
+        <ul className="features-list">
          <li>Something</li>
          <li>Something</li>
          <li>Something</li>
@@ -141,10 +143,63 @@ const Home = () => {
           </ul>
       </div>
       </div>
-      <button class="cta">Rent Now</button>
+      <button className="cta">Rent Now</button>
       </div>
       </div>
-      
+{/* FIN IMAGENES HOVER */}     
+
+{/* FOOTER */}
+
+      <div id="fut">
+<footer className="page-footer font-small blue pt-4">
+    
+    <div className="container-fluid text-center text-md-left">
+        <div className="row">
+            <div className="col-md-3 mt-md-0 mt-3">
+                <img src={logomin} id="logomin"alt="minlog"/>
+                <p>Here you can use rows and columns to organize your footer content.</p>
+            </div>
+
+            <hr className="clearfix w-100 d-md-none pb-0"/>
+
+            <div className="col-md-3 mb-md-0 mb-3">
+                <h5 className="text-uppercase">Links</h5>
+                <ul className="list-unstyled">
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                    <li><a href="#!">Link 3</a></li>
+                    <li><a href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <div className="col-md-3 mb-md-0 mb-3">
+                <h5 className="text-uppercase">Links</h5>
+                <ul className="list-unstyled">
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                    <li><a href="#!">Link 3</a></li>
+                    <li><a href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <div className="col-md-3 mb-md-0 mb-3">
+                <h5 className="text-uppercase">Links</h5>
+                <ul className="list-unstyled">
+                    <li><a href="#!">Link 1</a></li>
+                    <li><a href="#!">Link 2</a></li>
+                    <li><a href="#!">Link 3</a></li>
+                    <li><a href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <div className="footer-copyright text-center py-3">© 2022 Copyright:
+        <a href="https://mdbootstrap.com/"> MiamiSaltyExperience</a>
+    </div>
+    
+</footer>
+</div>
+
     </>
     
   

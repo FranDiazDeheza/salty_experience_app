@@ -1,13 +1,11 @@
-import React from 'react'
-import "../pages/about.css"
+import React from 'react';
 
 
 
 const About = () => {
     return (
      <>
-     
-  
+       
      </>
         
             

@@ -14,7 +14,8 @@ export const Nav = styled.nav`
   z-index: 20;
   font-family: miami;
   position: fixed;
-  background-color:#fff;
+  background:rgba(0, 0, 0, 0);
+  
  
 
 
@@ -24,12 +25,11 @@ export const NavDiv = styled.div`
 
 display: flex;
 align-items: center;
-position:relative;
-width: 50%;
-left: -70px;
+position:flex;
+
 
 @media screen and (max-width: 768px) {
-  width: 55%;
+  width: 50%;
 
 
   
@@ -74,7 +74,7 @@ color: #000;
 @media screen and (max-width: 768px) {
   display: block;
   position: absolute;
-  top: 0px;
+  top: -8px;
   right: 0;
   transform: translate(-100%, 80%);
   font-size: 1.8rem;
