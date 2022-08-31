@@ -5,6 +5,7 @@ import {
   Bars,
   NavMenu,
   NavDiv,
+  NavDivOr,
   
  } from './NavbarElements';
  import svg from '../images/logocolor.png';
@@ -40,8 +41,30 @@ const Navbar = ({toggle}) => {
     <NavLink to="/">
         <img src={svg} id="logo1" alt='logo' />
       </NavLink>
+      <NavDivOr id="dropdown-div">
+      <Dropdown>
+      <Dropdown.Toggle variant="primary" id="dropdown-basic">
+        <GlobeIcon/>
+       
+        </Dropdown.Toggle>
+
+<Dropdown.Menu id="dropdown-menu">
+  <Dropdown.Item onClick={() => i18n.changeLanguage("es")}> <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/ES.svg"  width = "120" height = "30" alt="Spanish" /></Dropdown.Item>
+  <Dropdown.Item onClick={() => i18n.changeLanguage("en")}> <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/US.svg"  width = "120" height = "30" alt="English" /></Dropdown.Item>
+  <Dropdown.Item onClick={() => i18n.changeLanguage("it")}>  <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/IT.svg"  width = "120" height = "30" alt="Italian" /> </Dropdown.Item>
+  <Dropdown.Item onClick={() => i18n.changeLanguage("fr")}>  <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/FR.svg"  width = "120" height = "30" alt="French" /> </Dropdown.Item>
+  <Dropdown.Item onClick={() => i18n.changeLanguage("cn")}>  <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/CN.svg"   width = "120" height = "30" alt="Chinese" /> </Dropdown.Item>
+</Dropdown.Menu>
+</Dropdown>
+</NavDivOr>
+       
+
       
-      <NavDiv id="dropdown-div">
+<Bars onClick={toggle}/>
+
+<NavMenu>
+        
+<NavDiv id="dropdown-div">
       <Dropdown>
       <Dropdown.Toggle variant="primary" id="dropdown-basic">
         <GlobeIcon/>
@@ -57,14 +80,8 @@ const Navbar = ({toggle}) => {
 </Dropdown.Menu>
 </Dropdown>
 </NavDiv>
-       
-<Bars onClick={toggle}/>
 
-<NavMenu>
-        
-
-
-  <NavLink to="/about" activesstyle="true"> 
+<NavLink to="/about" activesstyle="true"> 
         <span>{t("about")}</span> 
         </NavLink>
         {/*<NavLink to="/rent" activesstyle>*/}

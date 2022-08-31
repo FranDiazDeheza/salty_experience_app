@@ -21,6 +21,26 @@ export const Nav = styled.nav`
 
 `;
 
+export const NavDivOr = styled.div`
+
+display: none;
+
+
+@media screen and (max-width: 768px) {
+  width: 50%;
+  display: flex;
+align-items: center;
+position:flex;
+
+
+
+  
+
+}
+
+`
+
+
 export const NavDiv = styled.div`
 
 display: flex;
