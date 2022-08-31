@@ -228,7 +228,7 @@
   padding: 35px;
   list-style: none;
   opacity:0;
-  width: 83%;
+  width: 100%;
   transition: all 0.2s ease;
 
 }
@@ -238,7 +238,7 @@
   font-weight: 100;
   line-height: 150%;
   font-size: 1.1em;
-  text-align: left;
+  text-align: center;
 }
 
 .features-list li:before{
@@ -272,7 +272,6 @@
 }
 
 
-
 #fut{
   top: 1910px;
   position: absolute;
@@ -300,10 +299,12 @@
 
 @media screen and (max-device-width: 640px){
   
+
   #myVideo{
     height:480px;
   
     }
+
    #title1 {
     
     font-size: 28px!important;
@@ -343,7 +344,7 @@
     
     }
     .ticker-wrap {
-    
+      bottom:-155px;
       padding-left: 0%!important;
     
     }
@@ -360,7 +361,10 @@
     .inner{
       height: 360px!important;
     }
-  
+   
+    #fut{
+      top: 2750px !important;;
+    }
    
   
   }

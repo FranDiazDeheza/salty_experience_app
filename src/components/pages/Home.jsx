@@ -95,10 +95,8 @@ const Home = () => {
       <div className="lower">
         <img src={boat} className="image" alt=""/>
           <ul className="features-list">
-           <li>Something</li>
-           <li>Something</li>
-           <li>Something</li>
 
+          <li>Explore our boat rental services and sail along the coast of the city while admiring the views of the skyline</li>
             </ul>
         </div>
         </div>
@@ -114,10 +112,7 @@ const Home = () => {
     <div className="lower">
       <img src={jet} className="image" alt=""/>
         <ul className="features-list">
-         <li>Something</li>
-         <li>Something</li>
-         <li>Something</li>
-
+        <li>Feel the adrenaline and excitement of dominating the waves. Enjoy the feeling of salty freedom!</li>
           </ul>
       </div>
       </div>
@@ -135,10 +130,12 @@ const Home = () => {
     <div className="lower">
       <img src={jet} className="image" alt=""/>
         <ul className="features-list">
-         <li>Something</li>
-         <li>Something</li>
-         <li>Something</li>
 
+        <li> Catering </li>
+        <li> Special Dates </li>
+        <li> Decorations </li>
+        <li> Tours  </li>
+         
           </ul>
       </div>
       </div>
